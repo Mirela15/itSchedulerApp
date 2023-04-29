@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Trainer</title>
+</head>
+<body>
+
+<form name="register" action="userManagement" method="POST">
+    Name: <input type="text" name="tr_name" id="tr_name"/></br>
+    Email: <input type="text" name="email" id="email"/></br>
+    Pwd: <input type="text" name="password" id="password"/></br>
+    Confirm Pwd: <input type="text" name="confirmPwd" id="confirmPwd"/></br>
+    <label for="course">Choose a course:</label>
+    <select name="course" id="course">
+        <option value="Java">Java</option>
+        <option value="Html">Html</option>
+        <option value="CSS">CSS</option>
+        <option value="C++">C++</option>
+    </select></br>
+    <label for="date">Course date:</label>
+    <input type="date" id="date" name="date"></br>
+    <input type="hidden" id="action" name="action" value="NEWTrainer">
+    <input type="submit" />
+</form>
+</p>
+<a href ="login.html">Login</a>
+</body>
+</html>
